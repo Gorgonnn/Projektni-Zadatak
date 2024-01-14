@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('putanja/do/vasa-slika.jpg') top center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.Gore {
+    background-color: rgba(255, 255, 255, 0.8); /* Dodajte boju pozadine po želji */
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+input[type="submit"] {
+    background-color: rgb(1, 185, 151);
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.Logo {
+    width: 500px;
+    height: auto;
+    padding-right: 60px;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgb(27, 16, 44);
+    color: white;
+    text-align: right;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.Facebook, .Instagram
+{
+
+    padding: 28px;
+
+}
+
+.Instagram
+{
+
+    margin-right: 225px;
+
+}

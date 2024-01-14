@@ -1,0 +1,127 @@
+body {
+    background-color: rgba(245, 245, 245, 0.92);
+}
+
+#Naslov h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 1cm;
+    margin-bottom: 50px !important;
+}
+
+#Naslov h2 {
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+.fas.fa-home {
+    padding: 2px !important;
+    color: rgb(1, 185, 151) !important;
+    margin-right: 2px !important;
+    margin-right: 20px;
+}
+
+.fas.fa-envelope {
+    padding: 2px !important;
+    color: rgb(1, 185, 151) !important;
+    margin-left: 40px;
+    margin-right: 2px;
+}
+
+.fas.fa-laptop {
+    margin-left: 40px;
+    padding: 2px;
+    color: rgb(1, 185, 151) !important;
+}
+
+#Naslov .Logo {
+    width: 250px;
+    height: auto;
+}
+
+.foot-redovi {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    background-color: rgb(27, 16, 44);
+}
+
+.Foot-stavke {
+    margin-right: 20px;
+}
+
+.sadrzaj {
+    flex: 1;
+}
+
+.dajrazmak {
+    padding-bottom: 300px;
+}
+
+footer {
+    background-color: rgb(27, 16, 44);
+    ;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.Prvi_stupac {
+    font-size: 16px;
+    color: white;
+    padding-left: 65px;
+}
+
+/* Stiliziranje linkova ↓  */
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.Prvi_footer {
+    display: flex; 
+}
+
+.Prvi_stupac,
+.Drugi_stupac,
+.Treci_stupac {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.FooterLogo {
+    width: 250px;
+    height: auto;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.Broj {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.th1, .th2, .th3, .th4 {
+    border-bottom: 1px solid;
+    padding: 35px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sadrzaj {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.Tablica_Pored_slike {
+    flex: 1; 
+    margin-right: 20px;
+    margin-left: 60px; 
+}
+
+.slides {
+    flex: 1; 
+}
+
+
